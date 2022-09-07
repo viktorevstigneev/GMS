@@ -1,0 +1,47 @@
+.tasks {
+	display: flex;
+	width: 50%;
+	margin: 10% auto;
+	padding: 10px;
+
+	color: #c5c1b8;
+	background: #1d1d1d;
+}
+
+.tasks__content {
+	width: 80%;
+}
+
+
+.tasks__list {
+	border-right: 1px solid #4d4834;
+	border-top: 1px solid #4d4834;
+	border-bottom: 1px solid #4d4834;
+	padding-right: 25px;
+
+	overflow-y: auto;
+}
+
+.tasks__name {
+	color: #c5c1b8;
+
+	cursor: pointer;
+}
+
+.tasks__name::after {
+	content: '';
+	display: block;
+	margin: 10px auto 0;
+	width: 40px;
+	height: 2px;
+
+	background: #4d4834;
+}
+
+.tasks__name:hover {
+	color: #fad027;
+}
+
+.sabtasks{
+	display: flex;
+}
